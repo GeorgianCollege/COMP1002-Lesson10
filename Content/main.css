@@ -1,7 +1,10 @@
-.container {
-	margin: 2%;
-	padding: 2%;
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 1.1em;
 }
+
+
 
 /* layout styles for column widths */
 .col-1 {
@@ -53,10 +56,64 @@
 }
 
 .testBorder {
-	border: 1px solid red;
+	border: 1px dotted red;
 }
 
 /* navigation sytles */
-.nav li {
-	display: inline;
+header {
+	overflow: auto;
 }
+
+.active {
+	background-color: darkgray;
+}
+
+.nav {
+	height: 50px;
+	background-color: black;
+}
+
+.nav ul {
+	text-align: right;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 15px 0.5% 5px 0.5%;
+	height: 50px;
+}
+
+.nav li:hover {
+	background-color: grey;
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.left {
+	float: left;
+}
+
+.push-1 {
+	margin: 8.33%;
+}
+
+.push-2 {
+	margin: 16.66%;
+}
+
+.container {
+	margin: 2%;
+	padding: 2%;
+	min-height: 60vh;
+	overflow: auto
+}
+
+.content {
+	padding: 1.5%;
+}
+
+/* footer styles */
+
