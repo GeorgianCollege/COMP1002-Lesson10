@@ -93,15 +93,15 @@ header {
 }
 
 .left {
-	float: left;
+	display: inline-block;
 }
 
 .push-1 {
-	margin: 8.33%;
+	margin-left: 8.33%;
 }
 
 .push-2 {
-	margin: 16.66%;
+	margin-left: 16.66%;
 }
 
 .container {
@@ -113,6 +113,9 @@ header {
 
 .content {
 	padding: 1.5%;
+	height: 100%;
+	overflow: auto;
+	vertical-align: top;
 }
 
 /* footer styles */
